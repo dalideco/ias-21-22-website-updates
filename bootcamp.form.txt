@@ -1,0 +1,68 @@
+<form class="submit-team" style="width:100%">
+  <div class="row">
+<div class="form-group col-md-6 col-sm-12">
+    <label for="exampleInputEmail1">Fullname *</label>
+    <input type="text" class="form-control" name="fullname" aria-describedby="emailHelp" >
+  </div>
+  <div class="form-group col-md-6 col-sm-12">
+    <label for="exampleInputEmail1">Study Level *</label>
+    <input type="text" class="form-control" name="study-level"  aria-describedby="emailHelp" placeholder="">
+  </div>
+  </div>
+  <div class="row">
+<div class="form-group col-md-6 col-sm-12">
+    <label for="exampleInputEmail1">Institutional Email*</label>
+    <input type="email" class="form-control" name="email" aria-describedby="emailHelp" style="height:50px" placeholder="xyz@insat.u-carthage.tn">
+  </div>
+  <div class="form-group col-md-6 col-sm-12">
+    <label for="exampleInputEmail1">Phone Number *</label>
+    <input type="text" class="form-control" name="phone-number"  aria-describedby="emailHelp" placeholder="">
+  </div>
+  </div>
+  <div class="row">
+<div class="form-group col-md-6 col-sm-12">
+<label class="select-label" >Do you have a team ?*
+    <select class="form-control team-picker" name="has-a-team" data-width="100%" >
+      <option value="false">No</option>
+      <option value="true">Yes</option>
+    </select>
+  </div>
+  <div class="form-group col-md-6 col-sm-12 row" style="padding-right:0;">
+  <div class="col-sm-12" style="padding-right:0;">
+  <label class="select-label">If yes select how many extra members
+    <select class="form-control memebers-picker" name="extra-members"  data-width="100%">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3-max</option>
+    </select>
+    </div>
+  </div>
+  </div>
+  <!-- END OF ROW -->
+  <div class="row">
+<div class="form-group col-md-4 col-sm-12">
+    <label for="exampleInputEmail1">Member 1</label>
+    <input type="text" class="form-control" name="member1" aria-describedby="emailHelp" >
+  </div>
+  <div class="form-group col-md-4 col-sm-12">
+    <label for="exampleInputEmail1">Member 2</label>
+    <input type="text" class="form-control" name="member2"  aria-describedby="emailHelp" placeholder="">
+  </div>
+  <div class="form-group col-md-4 col-sm-12">
+    <label for="exampleInputEmail1">Member 3</label>
+    <input type="text" class="form-control" name="member3" aria-describedby="emailHelp" >
+  </div>
+  </div>
+   <!-- END OF ROW -->
+   <div class="row">
+<div class="form-group col-sm-12">
+    <label for="exampleInputEmail1">Provide a link to your whole team CVs. (Advised to use this <a href="https://wetransfer.com/" target="blank">link</a>, but anything else is accepted!)*</label>
+    <input type="text" class="form-control" name="team-cvs" aria-describedby="emailHelp" >
+  </div>
+  </div>
+   <div class="button-wrapper">
+  <button type="submit" id="submit-form" class="btn btn-primary form-submitter" style="width:5em;background-color:green;border-color:lightgreen" >Submit</button>
+</div>
+   <!-- END OF ROW -->
+</form>
